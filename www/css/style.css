@@ -1,561 +1,646 @@
-
-/* =========================================================
-   SLEMAN TOURISM INSIGHT
-   Theme: Modern Heritage - Brown & White
-   File: www/css/style.css
-   ========================================================= */
-
-
-/* =========================================================
-   1. COLOR PALETTE
-   ========================================================= */
+/* ============================================================
+   TAMBAHAN STYLE - Sleman Tourism Insight
+   Tempel di BAGIAN PALING BAWAH www/css/style.css
+   ============================================================ */
 
 :root {
-  --brown-dark: #4B3428;
-  --brown-primary: #795548;
-  --brown-medium: #A98262;
-  --brown-light: #C49A6C;
-
-  --cream: #F4EFE8;
-  --cream-light: #FAF8F5;
-  --white: #FFFFFF;
-
-  --text-dark: #352820;
-  --text-muted: #81766E;
-
-  --border-color: #E6DDD3;
-
-  --shadow: 0 4px 15px rgba(75, 52, 40, 0.07);
+  --sti-primary: #795548;
+  --sti-secondary: #A98262;
+  --sti-bg: #FAF8F5;
+  --sti-fg: #352820;
+  --sti-muted: #8a7a6e;
+  --sti-line: #e6ddd3;
+  --sti-card: #ffffff;
+  --sti-radius: 14px;
 }
 
-
-/* =========================================================
-   2. GLOBAL STYLE
-   ========================================================= */
-
-html {
-  scroll-behavior: smooth;
+/* ---------- Kontainer utama: tidak melebar di layar besar ---------- */
+.app-shell {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 24px 24px 40px;
 }
 
-body {
-  font-family: "Segoe UI", Arial, sans-serif;
-  background-color: var(--cream-light);
-  color: var(--text-dark);
-  font-size: 14px;
-  line-height: 1.6;
-}
-
-.container-fluid {
-  padding-left: 25px;
-  padding-right: 25px;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  color: var(--brown-dark);
-  font-weight: 600;
-}
-
-h1 {
-  font-size: 30px;
-}
-
-h2 {
-  font-size: 25px;
-}
-
-h3 {
-  font-size: 20px;
-}
-
-p {
-  color: var(--text-muted);
-}
-
-
-/* =========================================================
-   3. HEADER / BRAND
-   ========================================================= */
-
-.header-section {
-  background: var(--white);
-  padding: 25px 30px;
-  border-bottom: 1px solid var(--border-color);
-  margin-bottom: 20px;
-}
-
-.header-section h1 {
-  color: var(--brown-dark);
-  font-size: 30px;
-  font-weight: 700;
-  margin-top: 5px;
-  margin-bottom: 5px;
-}
-
-.header-section p {
-  color: var(--text-muted);
-  font-size: 14px;
-}
-
-
-/* =========================================================
-   4. NAVIGATION TABS
-   ========================================================= */
-
-.nav-tabs {
+/* ---------- Header ---------- */
+.app-header {
   display: flex;
-  flex-wrap: wrap;
-  gap: 5px;
-
-  border-bottom: 2px solid var(--border-color);
-  margin-bottom: 22px;
-  padding-left: 5px;
-}
-
-.nav-tabs > li {
-  margin-bottom: -2px;
-}
-
-.nav-tabs > li > a {
-  color: var(--brown-primary) !important;
-  background: transparent !important;
-
-  border: 1px solid transparent !important;
-  border-radius: 9px 9px 0 0 !important;
-
-  padding: 12px 19px;
-  font-weight: 600;
-  font-size: 13px;
-
-  transition: all 0.25s ease;
-}
-
-.nav-tabs > li > a:hover {
-  color: var(--brown-dark) !important;
-  background-color: var(--cream) !important;
-  border-color: var(--border-color) !important;
-}
-
-.nav-tabs > li.active > a,
-.nav-tabs > li.active > a:hover,
-.nav-tabs > li.active > a:focus {
-  color: var(--white) !important;
-  background-color: var(--brown-primary) !important;
-
-  border: 1px solid var(--brown-primary) !important;
-  border-bottom-color: var(--brown-primary) !important;
-
-  font-weight: 700;
-}
-
-
-/* =========================================================
-   5. NAVBAR BOOTSTRAP
-   ========================================================= */
-
-.navbar-default {
-  background-color: var(--brown-dark) !important;
-  border: none !important;
-  border-radius: 0;
-  box-shadow: var(--shadow);
-}
-
-.navbar-default .navbar-brand {
-  color: var(--white) !important;
-  font-weight: 700;
-}
-
-.navbar-default .navbar-nav > li > a {
-  color: var(--white) !important;
-  font-weight: 500;
-}
-
-.navbar-default .navbar-nav > li > a:hover {
-  background-color: var(--brown-primary) !important;
-  color: var(--white) !important;
-}
-
-.navbar-default .navbar-nav > .active > a,
-.navbar-default .navbar-nav > .active > a:hover {
-  background-color: var(--brown-medium) !important;
-  color: var(--white) !important;
-}
-
-
-/* =========================================================
-   6. DASHBOARD CARDS
-   ========================================================= */
-
-.well,
-.card,
-.stat-card {
-  background-color: var(--white) !important;
-
-  border: 1px solid var(--border-color) !important;
-  border-radius: 12px !important;
-
-  box-shadow: var(--shadow);
-  padding: 20px;
-
-  transition: all 0.25s ease;
-}
-
-.well:hover,
-.card:hover,
-.stat-card:hover {
-  box-shadow: 0 7px 20px rgba(75, 52, 40, 0.12);
-}
-
-.stat-card h3 {
-  color: var(--text-muted);
-  font-size: 14px;
-  margin-top: 0;
-}
-
-.stat-card h2 {
-  color: var(--brown-primary);
-  font-size: 30px;
-  font-weight: 700;
-}
-
-
-/* =========================================================
-   7. PANEL DAN SECTION
-   ========================================================= */
-
-.panel {
-  border: 1px solid var(--border-color) !important;
-  border-radius: 12px !important;
-
-  box-shadow: var(--shadow);
-  overflow: hidden;
-}
-
-.panel-default > .panel-heading {
-  background-color: var(--cream) !important;
-  color: var(--brown-dark) !important;
-
-  border-bottom: 1px solid var(--border-color);
-  font-weight: 700;
-}
-
-.panel-body {
-  background-color: var(--white);
-  padding: 20px;
-}
-
-section {
+  align-items: center;
+  gap: 16px;
   margin-bottom: 20px;
 }
+.app-header h2 {
+  margin: 0;
+  font-weight: 700;
+  color: var(--sti-fg);
+}
+.app-header p {
+  margin: 2px 0 0;
+  color: var(--sti-muted);
+}
+.brand-mark {
+  flex: 0 0 auto;
+  width: 52px;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 14px;
+  background: var(--sti-primary);
+  color: #fff;
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-size: 0.95rem;
+}
 
+/* ---------- Toolbar filter tahun (satu baris) ---------- */
+.global-toolbar {
+  display: flex;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding: 14px 18px;
+  margin-bottom: 14px;
+  background: var(--sti-card);
+  border: 1px solid var(--sti-line);
+  border-radius: var(--sti-radius);
+}
+.global-toolbar .form-group,
+.global-toolbar .shiny-input-container {
+  margin-bottom: 0;
+}
+.toolbar-caption {
+  padding-bottom: 8px;
+  color: var(--sti-muted);
+  font-size: 0.9rem;
+}
 
-/* =========================================================
-   8. BUTTONS
-   ========================================================= */
+/* ---------- Notice status data ---------- */
+.notice {
+  padding: 10px 16px;
+  margin-bottom: 18px;
+  border-radius: 10px;
+  font-size: 0.9rem;
+}
+.notice-success {
+  background: #f1ece6;
+  border-left: 4px solid var(--sti-primary);
+  color: var(--sti-fg);
+}
+.notice-danger {
+  background: #fdecea;
+  border-left: 4px solid #c0392b;
+  color: #7b241c;
+}
 
-.btn {
-  border-radius: 7px !important;
-  padding: 8px 16px;
-
+/* ---------- Tab navigasi ---------- */
+.app-shell .nav-tabs {
+  border-bottom: 2px solid var(--sti-line);
+  margin-bottom: 24px;
+  gap: 4px;
+}
+.app-shell .nav-tabs .nav-link {
+  color: var(--sti-primary);
   font-weight: 600;
-  transition: all 0.2s ease;
+  border: 0;
+  border-bottom: 3px solid transparent;
+  border-radius: 8px 8px 0 0;
+  padding: 10px 18px;
+}
+.app-shell .nav-tabs .nav-link:hover {
+  background: #f1ece6;
+}
+.app-shell .nav-tabs .nav-link.active {
+  color: var(--sti-fg);
+  background: transparent;
+  border-bottom-color: var(--sti-primary);
 }
 
-.btn-primary {
-  background-color: var(--brown-primary) !important;
-  border-color: var(--brown-primary) !important;
-  color: var(--white) !important;
+/* ---------- Judul seksi di dalam tab: beri jarak ---------- */
+.tab-content h3,
+.tab-content h4 {
+  margin-top: 32px;
+  margin-bottom: 4px;
+  color: var(--sti-fg);
+  font-weight: 700;
+}
+.tab-content h3 + p,
+.tab-content h4 + p {
+  color: var(--sti-muted);
+  margin-bottom: 14px;
 }
 
-.btn-primary:hover,
-.btn-primary:focus {
-  background-color: var(--brown-dark) !important;
-  border-color: var(--brown-dark) !important;
+/* ---------- Grafik tampil seperti kartu ---------- */
+.tab-content .html-widget,
+.tab-content .shiny-plot-output {
+  background: var(--sti-card);
+  border: 1px solid var(--sti-line);
+  border-radius: var(--sti-radius);
+  padding: 8px;
 }
 
-.btn-default {
-  background-color: var(--cream) !important;
-  border-color: var(--border-color) !important;
-  color: var(--brown-dark) !important;
+/* ---------- Tabel ---------- */
+.tab-content table {
+  width: 100%;
+}
+.tab-content table th,
+.tab-content table td {
+  padding: 10px 14px;
 }
 
-.btn-default:hover {
-  background-color: var(--brown-light) !important;
-  color: var(--white) !important;
+/* ---------- Footer ---------- */
+.app-footer {
+  margin-top: 40px;
+  padding-top: 16px;
+  border-top: 1px solid var(--sti-line);
+  color: var(--sti-muted);
+  font-size: 0.85rem;
+  text-align: center;
 }
 
-
-/* =========================================================
-   9. INPUT DAN SELECT
-   ========================================================= */
-
-.form-control,
-.selectize-input {
-  border: 1px solid var(--border-color) !important;
-  border-radius: 7px !important;
-
-  background-color: var(--white) !important;
-  color: var(--text-dark) !important;
-
-  box-shadow: none !important;
-  min-height: 38px;
+/* ---------- Layar kecil ---------- */
+@media (max-width: 768px) {
+  .app-shell { padding: 16px; }
+  .global-toolbar { align-items: stretch; }
 }
 
-.form-control:focus,
-.selectize-input.focus {
-  border-color: var(--brown-medium) !important;
-  box-shadow: 0 0 0 3px rgba(169, 130, 98, 0.15) !important;
+/* ============================================================
+   TAMBAHAN STYLE - Sleman Tourism Insight
+   Tempel di BAGIAN PALING BAWAH www/css/style.css
+   ============================================================ */
+
+:root {
+  --sti-primary: #795548;
+  --sti-secondary: #A98262;
+  --sti-bg: #FAF8F5;
+  --sti-fg: #352820;
+  --sti-muted: #8a7a6e;
+  --sti-line: #e6ddd3;
+  --sti-card: #ffffff;
+  --sti-radius: 14px;
 }
 
-.control-label {
-  color: var(--brown-dark);
+/* ---------- Kontainer utama: tidak melebar di layar besar ---------- */
+.app-shell {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 24px 24px 40px;
+}
+
+/* ---------- Header ---------- */
+.app-header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+.app-header h2 {
+  margin: 0;
+  font-weight: 700;
+  color: var(--sti-fg);
+}
+.app-header p {
+  margin: 2px 0 0;
+  color: var(--sti-muted);
+}
+.brand-mark {
+  flex: 0 0 auto;
+  width: 52px;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 14px;
+  background: var(--sti-primary);
+  color: #fff;
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-size: 0.95rem;
+}
+
+/* ---------- Toolbar filter tahun (satu baris) ---------- */
+.global-toolbar {
+  display: flex;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding: 14px 18px;
+  margin-bottom: 14px;
+  background: var(--sti-card);
+  border: 1px solid var(--sti-line);
+  border-radius: var(--sti-radius);
+}
+.global-toolbar .form-group,
+.global-toolbar .shiny-input-container {
+  margin-bottom: 0;
+}
+.toolbar-caption {
+  padding-bottom: 8px;
+  color: var(--sti-muted);
+  font-size: 0.9rem;
+}
+
+/* ---------- Notice status data ---------- */
+.notice {
+  padding: 10px 16px;
+  margin-bottom: 18px;
+  border-radius: 10px;
+  font-size: 0.9rem;
+}
+.notice-success {
+  background: #f1ece6;
+  border-left: 4px solid var(--sti-primary);
+  color: var(--sti-fg);
+}
+.notice-danger {
+  background: #fdecea;
+  border-left: 4px solid #c0392b;
+  color: #7b241c;
+}
+
+/* ---------- Tab navigasi ---------- */
+.app-shell .nav-tabs {
+  border-bottom: 2px solid var(--sti-line);
+  margin-bottom: 24px;
+  gap: 4px;
+}
+.app-shell .nav-tabs .nav-link {
+  color: var(--sti-primary);
   font-weight: 600;
+  border: 0;
+  border-bottom: 3px solid transparent;
+  border-radius: 8px 8px 0 0;
+  padding: 10px 18px;
+}
+.app-shell .nav-tabs .nav-link:hover {
+  background: #f1ece6;
+}
+.app-shell .nav-tabs .nav-link.active {
+  color: var(--sti-fg);
+  background: transparent;
+  border-bottom-color: var(--sti-primary);
 }
 
+/* ---------- Judul seksi di dalam tab: beri jarak ---------- */
+.tab-content h3,
+.tab-content h4 {
+  margin-top: 32px;
+  margin-bottom: 4px;
+  color: var(--sti-fg);
+  font-weight: 700;
+}
+.tab-content h3 + p,
+.tab-content h4 + p {
+  color: var(--sti-muted);
+  margin-bottom: 14px;
+}
 
-/* =========================================================
-   10. TABLES
-   ========================================================= */
-
-.table {
-  background-color: var(--white);
-  border-collapse: separate;
-  border-spacing: 0;
-
-  border-radius: 8px;
+/* ---------- Grafik tampil seperti kartu ---------- */
+.tab-content .html-widget,
+.tab-content .shiny-plot-output {
+  background: var(--sti-card);
+  border: 1px solid var(--sti-line);
+  border-radius: var(--sti-radius);
+  padding: 0;
   overflow: hidden;
 }
 
-.table thead th {
-  background-color: var(--brown-primary) !important;
-  color: var(--white) !important;
-
-  font-weight: 700;
-  border-bottom: none !important;
-
-  padding: 12px;
+/* ---------- Tabel ---------- */
+.tab-content table {
+  width: 100%;
+}
+.tab-content table th,
+.tab-content table td {
+  padding: 10px 14px;
 }
 
-.table tbody td {
-  padding: 10px 12px;
-  color: var(--text-dark);
-  border-color: var(--border-color) !important;
-}
-
-.table-striped > tbody > tr:nth-of-type(odd) {
-  background-color: var(--cream-light) !important;
-}
-
-.table-striped > tbody > tr:nth-of-type(even) {
-  background-color: var(--white) !important;
-}
-
-.table-hover > tbody > tr:hover {
-  background-color: var(--cream) !important;
-}
-
-
-/* =========================================================
-   11. DATATABLES
-   ========================================================= */
-
-.dataTables_wrapper {
-  color: var(--text-dark);
-  padding: 5px;
-}
-
-.dataTables_wrapper .dataTables_length,
-.dataTables_wrapper .dataTables_filter {
-  margin-bottom: 12px;
-  color: var(--text-muted);
-}
-
-.dataTables_wrapper .dataTables_filter input,
-.dataTables_wrapper .dataTables_length select {
-  border: 1px solid var(--border-color);
-  border-radius: 6px;
-  padding: 6px;
-}
-
-.dataTables_wrapper .dataTables_info {
-  color: var(--text-muted);
-  padding-top: 12px;
-}
-
-.dataTables_wrapper .dataTables_paginate .paginate_button {
-  border-radius: 5px !important;
-  color: var(--brown-primary) !important;
-}
-
-.dataTables_wrapper .dataTables_paginate .paginate_button.current {
-  background: var(--brown-primary) !important;
-  color: var(--white) !important;
-  border: 1px solid var(--brown-primary) !important;
-}
-
-.dataTables_wrapper .dataTables_paginate .paginate_button:hover {
-  background: var(--brown-medium) !important;
-  color: var(--white) !important;
-  border: 1px solid var(--brown-medium) !important;
-}
-
-
-/* =========================================================
-   12. PLOT / CHART CONTAINER
-   ========================================================= */
-
-.plot-container {
-  background-color: var(--white);
-  border-radius: 10px;
-  padding: 12px;
-}
-
-.html-widget {
-  border-radius: 8px;
-  max-width: 100%;
-}
-
-
-/* =========================================================
-   13. ALERT / INFO
-   ========================================================= */
-
-.alert {
-  border-radius: 8px;
-  border: 1px solid var(--border-color);
-}
-
-.alert-info {
-  background-color: var(--cream);
-  color: var(--brown-dark);
-  border-left: 4px solid var(--brown-primary);
-}
-
-.alert-warning {
-  background-color: #FFF8EB;
-  color: #795548;
-  border-left: 4px solid var(--brown-light);
-}
-
-.alert-success {
-  background-color: #F2F6F0;
-  color: #47634A;
-}
-
-
-/* =========================================================
-   14. FOOTER
-   ========================================================= */
-
-.footer {
-  background-color: var(--brown-dark);
-  color: var(--white);
-
-  padding: 18px 25px;
-  margin-top: 25px;
-
+/* ---------- Footer ---------- */
+.app-footer {
+  margin-top: 40px;
+  padding-top: 16px;
+  border-top: 1px solid var(--sti-line);
+  color: var(--sti-muted);
+  font-size: 0.85rem;
   text-align: center;
-  border-radius: 8px;
 }
 
-.footer p {
-  color: var(--white);
+/* ---------- Kolom unggah data ---------- */
+.upload-filter .form-group,
+.upload-filter .shiny-input-container {
+  margin-bottom: 0;
+}
+.upload-filter .input-group {
+  flex-wrap: nowrap;
+}
+.upload-filter .btn-file,
+.upload-filter .btn {
+  background: var(--sti-primary);
+  border-color: var(--sti-primary);
+  color: #fff;
+}
+.upload-filter .progress {
+  margin-top: 6px;
+  height: 6px;
+}
+.upload-filter .progress-bar {
+  background-color: var(--sti-primary);
+}
+
+/* ---------- Isi kotak status ---------- */
+.notice p {
   margin: 0;
-  font-size: 12px;
+}
+.notice p + p,
+.notice p + details {
+  margin-top: 4px;
+}
+.notice-detail {
+  color: var(--sti-muted);
+  font-size: 0.85rem;
+}
+.notice details {
+  margin-top: 6px;
+  font-size: 0.85rem;
+}
+.notice summary {
+  cursor: pointer;
+  color: var(--sti-primary);
 }
 
-
-/* =========================================================
-   15. LINKS
-   ========================================================= */
-
-a {
-  color: var(--brown-primary);
-  transition: color 0.2s ease;
+/* ---------- Tampilan awal sebelum ada data ---------- */
+.empty-state {
+  max-width: 720px;
+  margin: 24px auto 0;
+  padding: 32px 36px;
+  background: var(--sti-card);
+  border: 1px dashed var(--sti-secondary);
+  border-radius: var(--sti-radius);
+}
+.empty-state h3 {
+  margin: 0 0 8px;
+  color: var(--sti-fg);
+  font-weight: 700;
+}
+.empty-state p {
+  color: var(--sti-fg);
+}
+.empty-state ul {
+  margin: 12px 0 0;
+  padding-left: 20px;
+  color: var(--sti-muted);
+}
+.empty-state li + li {
+  margin-top: 4px;
 }
 
-a:hover {
-  color: var(--brown-dark);
-  text-decoration: none;
+/* ---------- Layar kecil ---------- */
+@media (max-width: 768px) {
+  .app-shell { padding: 16px; }
+  .global-toolbar { align-items: stretch; }
 }
 
+/* ============================================================
+   TAMBAHAN STYLE - Sleman Tourism Insight
+   Tempel di BAGIAN PALING BAWAH www/css/style.css
+   ============================================================ */
 
-/* =========================================================
-   16. RESPONSIVE DESIGN
-   ========================================================= */
-
-@media screen and (max-width: 768px) {
-
-  .container-fluid {
-    padding-left: 12px;
-    padding-right: 12px;
-  }
-
-  .header-section {
-    padding: 18px 15px;
-  }
-
-  .header-section h1 {
-    font-size: 23px;
-  }
-
-  .nav-tabs {
-    flex-wrap: wrap;
-  }
-
-  .nav-tabs > li > a {
-    padding: 9px 11px;
-    font-size: 12px;
-  }
-
-  .well,
-  .card,
-  .stat-card {
-    padding: 14px;
-    margin-bottom: 12px;
-  }
-
-  h1 {
-    font-size: 24px;
-  }
-
-  h2 {
-    font-size: 21px;
-  }
-
-  .table {
-    font-size: 12px;
-  }
-
-  .dataTables_wrapper {
-    overflow-x: auto;
-  }
+:root {
+  --sti-primary: #795548;
+  --sti-secondary: #A98262;
+  --sti-bg: #FAF8F5;
+  --sti-fg: #352820;
+  --sti-muted: #8a7a6e;
+  --sti-line: #e6ddd3;
+  --sti-card: #ffffff;
+  --sti-radius: 14px;
 }
 
-
-/* =========================================================
-   17. SCROLLBAR
-   ========================================================= */
-
-::-webkit-scrollbar {
-  width: 8px;
-  height: 8px;
+/* ---------- Kontainer utama: tidak melebar di layar besar ---------- */
+.app-shell {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 24px 24px 40px;
 }
 
-::-webkit-scrollbar-track {
-  background: var(--cream);
+/* ---------- Header ---------- */
+.app-header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+.app-header h2 {
+  margin: 0;
+  font-weight: 700;
+  color: var(--sti-fg);
+}
+.app-header p {
+  margin: 2px 0 0;
+  color: var(--sti-muted);
+}
+.brand-mark {
+  flex: 0 0 auto;
+  width: 52px;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 14px;
+  background: var(--sti-primary);
+  color: #fff;
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-size: 0.95rem;
 }
 
-::-webkit-scrollbar-thumb {
-  background: var(--brown-medium);
+/* ---------- Toolbar filter tahun (satu baris) ---------- */
+.global-toolbar {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding: 14px 18px;
+  margin-bottom: 14px;
+  background: var(--sti-card);
+  border: 1px solid var(--sti-line);
+  border-radius: var(--sti-radius);
+}
+.global-toolbar .form-group,
+.global-toolbar .shiny-input-container {
+  margin-bottom: 0;
+}
+.toolbar-caption {
+  flex: 1 1 100%;
+  color: var(--sti-muted);
+  font-size: 0.9rem;
+}
+
+/* ---------- Notice status data ---------- */
+.notice {
+  padding: 10px 16px;
+  margin-bottom: 18px;
   border-radius: 10px;
+  font-size: 0.9rem;
+}
+.notice-success {
+  background: #f1ece6;
+  border-left: 4px solid var(--sti-primary);
+  color: var(--sti-fg);
+}
+.notice-danger {
+  background: #fdecea;
+  border-left: 4px solid #c0392b;
+  color: #7b241c;
 }
 
-::-webkit-scrollbar-thumb:hover {
-  background: var(--brown-dark);
+/* ---------- Tab navigasi ---------- */
+.app-shell .nav-tabs {
+  border-bottom: 2px solid var(--sti-line);
+  margin-bottom: 24px;
+  gap: 4px;
+}
+.app-shell .nav-tabs .nav-link {
+  color: var(--sti-primary);
+  font-weight: 600;
+  border: 0;
+  border-bottom: 3px solid transparent;
+  border-radius: 8px 8px 0 0;
+  padding: 10px 18px;
+}
+.app-shell .nav-tabs .nav-link:hover {
+  background: #f1ece6;
+}
+.app-shell .nav-tabs .nav-link.active {
+  color: var(--sti-fg);
+  background: transparent;
+  border-bottom-color: var(--sti-primary);
 }
 
+/* ---------- Judul seksi di dalam tab: beri jarak ---------- */
+.tab-content h3,
+.tab-content h4 {
+  margin-top: 32px;
+  margin-bottom: 4px;
+  color: var(--sti-fg);
+  font-weight: 700;
+}
+.tab-content h3 + p,
+.tab-content h4 + p {
+  color: var(--sti-muted);
+  margin-bottom: 14px;
+}
 
-/* =========================================================
-   END OF STYLESHEET
-   SLEMAN TOURISM INSIGHT
-   ========================================================= */
+/* ---------- Grafik tampil seperti kartu ---------- */
+.tab-content .html-widget,
+.tab-content .shiny-plot-output {
+  background: var(--sti-card);
+  border: 1px solid var(--sti-line);
+  border-radius: var(--sti-radius);
+  padding: 0;
+  overflow: hidden;
+}
+
+/* ---------- Tabel ---------- */
+.tab-content table {
+  width: 100%;
+}
+.tab-content table th,
+.tab-content table td {
+  padding: 10px 14px;
+}
+
+/* ---------- Footer ---------- */
+.app-footer {
+  margin-top: 40px;
+  padding-top: 16px;
+  border-top: 1px solid var(--sti-line);
+  color: var(--sti-muted);
+  font-size: 0.85rem;
+  text-align: center;
+}
+
+/* ---------- Kolom unggah data ---------- */
+.upload-filter .form-group,
+.upload-filter .shiny-input-container {
+  margin-bottom: 0;
+}
+.upload-filter .input-group {
+  flex-wrap: nowrap;
+}
+.upload-filter .btn-file,
+.upload-filter .btn {
+  background: var(--sti-primary);
+  border-color: var(--sti-primary);
+  color: #fff;
+}
+.upload-filter .shiny-input-container {
+  position: relative;
+}
+.upload-filter .progress {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -8px;
+  height: 4px;
+  margin: 0;
+}
+.upload-filter .progress-bar {
+  background-color: var(--sti-primary);
+  font-size: 0;
+}
+
+/* ---------- Isi kotak status ---------- */
+.notice p {
+  margin: 0;
+}
+.notice p + p,
+.notice p + details {
+  margin-top: 4px;
+}
+.notice-detail {
+  color: var(--sti-muted);
+  font-size: 0.85rem;
+}
+.notice ul {
+  margin: 4px 0 0;
+  padding-left: 18px;
+}
+.notice details {
+  margin-top: 6px;
+  font-size: 0.85rem;
+}
+.notice summary {
+  cursor: pointer;
+  color: var(--sti-primary);
+}
+
+/* ---------- Tampilan awal sebelum ada data ---------- */
+.empty-state {
+  max-width: 720px;
+  margin: 24px auto 0;
+  padding: 32px 36px;
+  background: var(--sti-card);
+  border: 1px dashed var(--sti-secondary);
+  border-radius: var(--sti-radius);
+}
+.empty-state h3 {
+  margin: 0 0 8px;
+  color: var(--sti-fg);
+  font-weight: 700;
+}
+.empty-state p {
+  color: var(--sti-fg);
+}
+.empty-state ul {
+  margin: 12px 0 0;
+  padding-left: 20px;
+  color: var(--sti-muted);
+}
+.empty-state li + li {
+  margin-top: 4px;
+}
+
+/* ---------- Layar kecil ---------- */
+@media (max-width: 768px) {
+  .app-shell { padding: 16px; }
+  .global-toolbar { align-items: stretch; }
+}

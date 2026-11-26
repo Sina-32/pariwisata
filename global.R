@@ -1,4 +1,4 @@
-# File ini otomatis dijalankan oleh Shiny sebelum app.R.
+# Dimuat oleh app.R lewat source("global.R"): paket, fungsi, dan modul.
 required_packages <- c(
   "shiny", "bslib", "dplyr", "tidyr", "stringr", "readr", "readxl",
   "ggplot2", "DT", "scales", "tibble", "rlang"
@@ -17,6 +17,7 @@ source(file.path("functions", "helpers.R"), local = FALSE, encoding = "UTF-8")
 source(file.path("functions", "statistics.R"), local = FALSE, encoding = "UTF-8")
 source(file.path("functions", "visualization.R"), local = FALSE, encoding = "UTF-8")
 source(file.path("functions", "data_loader.R"), local = FALSE, encoding = "UTF-8")
+source(file.path("functions", "upload.R"), local = FALSE, encoding = "UTF-8")
 
 # Modul dimuat sekali agar fungsi UI/server tersedia di app.R.
 module_files <- c(

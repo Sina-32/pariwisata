@@ -1,11 +1,17 @@
 # Fungsi visualisasi bersama. Semua grafik memakai data yang telah difilter modul.
 
+# Palet warna aplikasi (selaras dengan tema cokelat).
+PALET_UTAMA <- c(
+  "#795548", "#C9A66B", "#A98262", "#5D4037",
+  "#D7C4B2", "#8C735B", "#B8860B", "#3E2723"
+)
+
 base_plot_theme <- function() {
   ggplot2::theme_minimal(base_size = 12) +
     ggplot2::theme(
       plot.title = ggplot2::element_text(face = "bold", size = 13),
-      plot.subtitle = ggplot2::element_text(color = "#64748b"),
-      axis.title = ggplot2::element_text(color = "#475569"),
+      plot.subtitle = ggplot2::element_text(color = "#8a7a6e"),
+      axis.title = ggplot2::element_text(color = "#5b4a3f"),
       panel.grid.minor = ggplot2::element_blank(),
       legend.position = "bottom"
     )
@@ -13,8 +19,8 @@ base_plot_theme <- function() {
 
 plot_monthly_trend <- function(monthly, title = "Tren kunjungan bulanan") {
   ggplot2::ggplot(monthly, ggplot2::aes(x = .data$bulan_num, y = .data$total, group = 1)) +
-    ggplot2::geom_line(color = "#176B87", linewidth = 1) +
-    ggplot2::geom_point(color = "#176B87", size = 2.5) +
+    ggplot2::geom_line(color = "#795548", linewidth = 1) +
+    ggplot2::geom_point(color = "#795548", size = 2.5) +
     ggplot2::scale_x_continuous(breaks = 1:12, labels = MONTHS_ID) +
     ggplot2::scale_y_continuous(labels = scales::label_number(big.mark = ".", decimal.mark = ",")) +
     ggplot2::labs(title = title, x = NULL, y = "Jumlah kunjungan") +
@@ -27,7 +33,7 @@ plot_top_destinations <- function(data, title = "10 destinasi dengan kunjungan t
     dplyr::slice_max(order_by = .data$total, n = 10, with_ties = FALSE) |>
     dplyr::mutate(label = factor(.data$destinasi, levels = rev(.data$destinasi)))
   ggplot2::ggplot(data, ggplot2::aes(x = .data$label, y = .data$total)) +
-    ggplot2::geom_col(fill = "#176B87", width = 0.72) +
+    ggplot2::geom_col(fill = "#795548", width = 0.72) +
     ggplot2::coord_flip() +
     ggplot2::scale_y_continuous(labels = scales::label_number(big.mark = ".", decimal.mark = ",")) +
     ggplot2::labs(title = title, x = NULL, y = "Jumlah kunjungan") +
@@ -39,7 +45,7 @@ plot_area_visits <- function(data) {
   data <- data |>
     dplyr::mutate(kapanewon = factor(.data$kapanewon, levels = rev(.data$kapanewon)))
   ggplot2::ggplot(data, ggplot2::aes(x = .data$kapanewon, y = .data$total)) +
-    ggplot2::geom_col(fill = "#2A9D8F", width = 0.72) +
+    ggplot2::geom_col(fill = "#A98262", width = 0.72) +
     ggplot2::coord_flip() +
     ggplot2::scale_y_continuous(labels = scales::label_number(big.mark = ".", decimal.mark = ",")) +
     ggplot2::labs(title = "Perbandingan kunjungan per Kapanewon", x = NULL, y = "Jumlah kunjungan") +
@@ -52,7 +58,7 @@ plot_profile_monthly <- function(data) {
     ggplot2::geom_col() +
     ggplot2::scale_x_continuous(breaks = 1:12, labels = MONTHS_ID) +
     ggplot2::scale_y_continuous(labels = scales::label_number(big.mark = ".", decimal.mark = ",")) +
-    ggplot2::scale_fill_manual(values = c("WNI" = "#176B87", "WNA" = "#E9A23B")) +
+    ggplot2::scale_fill_manual(values = c("WNI" = "#795548", "WNA" = "#C9A66B")) +
     ggplot2::labs(title = "Komposisi WNI dan WNA setiap bulan", x = NULL, y = "Jumlah kunjungan", fill = "Kelompok") +
     base_plot_theme()
 }
@@ -63,6 +69,7 @@ plot_donut <- function(data, label_col = "kelompok", title = "Komposisi kunjunga
     ggplot2::geom_col(width = 0.9, color = "white") +
     ggplot2::coord_polar(theta = "y") +
     ggplot2::xlim(0.5, 2.5) +
+    ggplot2::scale_fill_manual(values = PALET_UTAMA) +
     ggplot2::labs(title = title, fill = NULL) +
     ggplot2::theme_void() +
     ggplot2::theme(plot.title = ggplot2::element_text(face = "bold", size = 13), legend.position = "bottom")
@@ -73,7 +80,7 @@ plot_category_visits <- function(data) {
   data <- data |>
     dplyr::mutate(kategori = factor(.data$kategori, levels = .data$kategori[order(.data$total)]))
   ggplot2::ggplot(data, ggplot2::aes(x = .data$kategori, y = .data$total)) +
-    ggplot2::geom_col(fill = "#8A5FBF", width = 0.65) +
+    ggplot2::geom_col(fill = "#8C735B", width = 0.65) +
     ggplot2::coord_flip() +
     ggplot2::scale_y_continuous(labels = scales::label_number(big.mark = ".", decimal.mark = ",")) +
     ggplot2::labs(title = "Jumlah kunjungan per kategori", x = NULL, y = "Jumlah kunjungan") +

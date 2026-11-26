@@ -1,5 +1,5 @@
 # Konfigurasi utama Sleman Tourism Insight
-APP_TITLE <- "Sleman Tourism Insight"
+APP_TITLE <- "Analisis Pariwisata"
 APP_SUBTITLE <- "Analisis statistik kunjungan wisatawan Kabupaten Sleman"
 SOURCE_DESCRIPTION <- paste(
   "Sumber: Dinas Pariwisata Kabupaten Sleman; dokumen statistik 2023,",

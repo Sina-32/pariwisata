@@ -1,32 +1,18 @@
-
 # ============================================================
-# SLEMAN TOURISM INSIGHT
+# ANALISIS PARIWISATA
 # Aplikasi Analisis Statistik Pariwisata Kabupaten Sleman
 # Theme: Modern Heritage - Brown & White
 # ============================================================
 
+# global.R memuat paket, config.R, fungsi, dan seluruh modul.
+source("global.R")
 
-# ============================================================
-# 1. LOAD DATA
-# ============================================================
-
-load_result <- tryCatch(
-  list(data = load_app_data(), error = NULL),
-  error = function(e) list(data = NULL, error = conditionMessage(e))
-)
-
-APP_DATA <- load_result$data
-APP_DATA_ERROR <- load_result$error
-
-APP_YEARS <- if (!is.null(APP_DATA) && nrow(APP_DATA) > 0) {
-  sort(unique(as.integer(APP_DATA$tahun)))
-} else {
-  integer(0)
-}
+# Batas ukuran file unggahan: 30 MB.
+options(shiny.maxRequestSize = 30 * 1024^2)
 
 
 # ============================================================
-# 2. APPLICATION THEME
+# 1. APPLICATION THEME
 # ============================================================
 
 app_theme <- bslib::bs_theme(
@@ -43,7 +29,7 @@ app_theme <- bslib::bs_theme(
 
 
 # ============================================================
-# 3. USER INTERFACE
+# 2. USER INTERFACE
 # ============================================================
 
 ui <- shiny::fluidPage(
@@ -79,11 +65,6 @@ ui <- shiny::fluidPage(
       class = "app-header",
       
       shiny::div(
-        class = "brand-mark",
-        "STI"
-      ),
-      
-      shiny::div(
         shiny::h2(APP_TITLE),
         shiny::p(APP_SUBTITLE)
       )
@@ -91,11 +72,25 @@ ui <- shiny::fluidPage(
     
     
     # --------------------------------------------------------
-    # GLOBAL TOOLBAR
+    # TOOLBAR: UNGGAH DATA + FILTER TAHUN
     # --------------------------------------------------------
     
     shiny::div(
       class = "global-toolbar",
+      
+      shiny::div(
+        class = "upload-filter",
+        
+        shiny::fileInput(
+          "file_data",
+          "Data kunjungan (.xlsx)",
+          multiple = TRUE,
+          accept = c(".xlsx", ".xls"),
+          buttonLabel = "Pilih file",
+          placeholder = "Belum ada file",
+          width = "300px"
+        )
+      ),
       
       shiny::div(
         class = "year-filter",
@@ -103,26 +98,15 @@ ui <- shiny::fluidPage(
         shiny::selectInput(
           "tahun_global",
           "Tahun analisis",
-          
-          choices = if (length(APP_YEARS)) {
-            as.character(APP_YEARS)
-          } else {
-            "Tidak tersedia"
-          },
-          
-          selected = if (length(APP_YEARS)) {
-            as.character(max(APP_YEARS))
-          } else {
-            "Tidak tersedia"
-          },
-          
+          choices = "Tidak tersedia",
+          selected = "Tidak tersedia",
           width = "180px"
         )
       ),
       
       shiny::div(
         class = "toolbar-caption",
-        "Pilihan tahun digunakan bersama pada seluruh halaman analisis."
+        "Unggah satu file Excel untuk setiap tahun. Pilihan tahun digunakan bersama pada seluruh halaman analisis."
       )
     ),
     
@@ -135,7 +119,39 @@ ui <- shiny::fluidPage(
     
     
     # --------------------------------------------------------
-    # MAIN NAVIGATION
+    # TAMPILAN AWAL (SEBELUM ADA DATA)
+    # --------------------------------------------------------
+    
+    shiny::conditionalPanel(
+      condition = "!output.data_ready",
+      
+      shiny::div(
+        class = "empty-state",
+        
+        shiny::h3("Unggah data untuk memulai"),
+        
+        shiny::p(
+          "Pilih file Excel kunjungan wisatawan pada kolom \"Data kunjungan\" di atas. ",
+          "Beberapa file bisa dipilih sekaligus untuk membandingkan beberapa tahun."
+        ),
+        
+        shiny::tags$ul(
+          shiny::tags$li(
+            "Format file: Excel (.xlsx atau .xls) dengan sheet bernama \"Rekap\", sama seperti data Dinas Pariwisata Kabupaten Sleman."
+          ),
+          shiny::tags$li(
+            "Nama file harus memuat tahun, misalnya Kunjungan_2025.xlsx."
+          ),
+          shiny::tags$li(
+            "Satu file untuk setiap tahun."
+          )
+        )
+      )
+    ),
+    
+    
+    # --------------------------------------------------------
+    # MAIN NAVIGATION (SELALU TAMPIL)
     # --------------------------------------------------------
     
     shiny::tabsetPanel(
@@ -182,17 +198,82 @@ ui <- shiny::fluidPage(
     shiny::div(
       class = "app-footer",
       
-      "Sleman Tourism Insight · Aplikasi analisis statistik kunjungan wisatawan · Data bersumber dari dokumen Dinas Pariwisata Kabupaten Sleman"
+      "Analisis Pariwisata · Aplikasi analisis statistik kunjungan wisatawan · Data bersumber dari file yang diunggah pengguna"
     )
   )
 )
 
 
 # ============================================================
-# 4. SERVER
+# 3. SERVER
 # ============================================================
 
 server <- function(input, output, session) {
+  
+  # ----------------------------------------------------------
+  # STATE DATA (per sesi pengguna, tidak disimpan ke disk)
+  # ----------------------------------------------------------
+  
+  app_data     <- shiny::reactiveVal(NULL)
+  app_info     <- shiny::reactiveVal(NULL)
+  upload_error <- shiny::reactiveVal(NULL)
+  
+  
+  # ----------------------------------------------------------
+  # PROSES UNGGAH FILE
+  # ----------------------------------------------------------
+  
+  shiny::observeEvent(input$file_data, {
+    
+    berkas <- input$file_data
+    
+    hasil <- tryCatch(
+      shiny::withProgress(
+        message = "Membaca file Excel...",
+        value = 0.5,
+        baca_unggahan(berkas$datapath, berkas$name)
+      ),
+      unggahan_gagal = function(e) {
+        upload_error(e$gagal)
+        NULL
+      },
+      error = function(e) {
+        upload_error(conditionMessage(e))
+        NULL
+      }
+    )
+    
+    # Jika gagal, data sebelumnya (kalau ada) tetap dipakai.
+    if (is.null(hasil)) {
+      return()
+    }
+    
+    # File yang gagal dilewati, file lain tetap dimuat.
+    upload_error(if (length(hasil$gagal) > 0) hasil$gagal else NULL)
+    app_data(hasil$data)
+    app_info(list(
+      files = hasil$dimuat,
+      peringatan = hasil$peringatan
+    ))
+    
+    tahun <- sort(unique(hasil$data$tahun))
+    
+    shiny::updateSelectInput(
+      session,
+      "tahun_global",
+      choices = as.character(tahun),
+      selected = as.character(max(tahun))
+    )
+  })
+  
+  
+  # ----------------------------------------------------------
+  # PENANDA DATA SIAP (dipakai conditionalPanel di UI)
+  # ----------------------------------------------------------
+  
+  output$data_ready <- shiny::reactive(!is.null(app_data()))
+  shiny::outputOptions(output, "data_ready", suspendWhenHidden = FALSE)
+  
   
   # ----------------------------------------------------------
   # SHARED DATA
@@ -201,11 +282,11 @@ server <- function(input, output, session) {
   data_shared <- shiny::reactive({
     
     shiny::req(
-      !is.null(APP_DATA),
-      nrow(APP_DATA) > 0
+      !is.null(app_data()),
+      nrow(app_data()) > 0
     )
     
-    APP_DATA
+    app_data()
   })
   
   
@@ -232,36 +313,67 @@ server <- function(input, output, session) {
   
   output$data_status <- shiny::renderUI({
     
-    if (!is.null(APP_DATA_ERROR)) {
+    pesan_error <- NULL
+    pesan_sukses <- NULL
+    
+    if (!is.null(upload_error())) {
       
-      return(
-        shiny::div(
-          class = "notice notice-danger",
-          
-          shiny::strong("Data belum dapat dimuat."),
-          
-          shiny::p(APP_DATA_ERROR),
-          
-          shiny::p(
-            "Pastikan file Excel sumber tersedia di data/raw atau file hasil preprocessing tersedia di data/processed. Jalankan aplikasi dari folder utama proyek."
-          )
+      pesan_error <- shiny::div(
+        class = "notice notice-danger",
+        
+        shiny::strong(
+          if (is.null(app_data())) {
+            "File belum dapat dimuat."
+          } else {
+            "Sebagian file tidak dapat dimuat."
+          }
+        ),
+        
+        shiny::tags$ul(
+          lapply(upload_error(), shiny::tags$li)
         )
       )
     }
     
-    q <- quality_summary(APP_DATA)
+    d <- app_data()
     
-    shiny::div(
-      class = "notice notice-success",
+    if (!is.null(d)) {
       
-      paste0(
-        "Data berhasil dimuat: ",
-        fmt_number(length(unique(APP_DATA$tahun))),
-        " tahun, ",
-        fmt_number(q$rows),
-        " baris pengamatan bulanan."
+      q <- quality_summary(d)
+      info <- app_info()
+      
+      pesan_sukses <- shiny::div(
+        class = "notice notice-success",
+        
+        shiny::p(
+          paste0(
+            "Data berhasil dimuat: ",
+            fmt_number(length(unique(d$tahun))),
+            " tahun, ",
+            fmt_number(q$rows),
+            " baris pengamatan bulanan."
+          )
+        ),
+        
+        shiny::p(
+          class = "notice-detail",
+          paste("File:", paste(info$files, collapse = ", "))
+        ),
+        
+        if (length(info$peringatan) > 0) {
+          shiny::tags$details(
+            shiny::tags$summary(
+              paste0(length(info$peringatan), " catatan saat membaca file")
+            ),
+            shiny::tags$ul(
+              lapply(info$peringatan, shiny::tags$li)
+            )
+          )
+        }
       )
-    )
+    }
+    
+    shiny::tagList(pesan_error, pesan_sukses)
   })
   
   
@@ -309,7 +421,7 @@ server <- function(input, output, session) {
 
 
 # ============================================================
-# 5. RUN APPLICATION
+# 4. RUN APPLICATION
 # ============================================================
 
 shiny::shinyApp(
