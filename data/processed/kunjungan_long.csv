@@ -3484,25 +3484,25 @@ tahun,kategori,destinasi,kapanewon,asal,bulan,jumlah,bulan_num,tanggal
 2024,Wisata Alam,Green Kayen (masuk deswita),Depok,WNA,Feb,0,2,2024-02-01
 2024,Wisata Alam,Green Kayen (masuk deswita),Depok,WNI,Feb,0,2,2024-02-01
 2024,Wisata Alam,Green Kayen (masuk deswita),Depok,WNA,Mar,0,3,2024-03-01
-2024,Wisata Alam,Green Kayen (masuk deswita),Depok,WNI,Mar,0,3,2024-03-01
+2024,Wisata Alam,Green Kayen (masuk deswita),Depok,WNI,Mar,,3,2024-03-01
 2024,Wisata Alam,Green Kayen (masuk deswita),Depok,WNA,Apr,0,4,2024-04-01
-2024,Wisata Alam,Green Kayen (masuk deswita),Depok,WNI,Apr,0,4,2024-04-01
+2024,Wisata Alam,Green Kayen (masuk deswita),Depok,WNI,Apr,,4,2024-04-01
 2024,Wisata Alam,Green Kayen (masuk deswita),Depok,WNA,Mei,0,5,2024-05-01
-2024,Wisata Alam,Green Kayen (masuk deswita),Depok,WNI,Mei,0,5,2024-05-01
+2024,Wisata Alam,Green Kayen (masuk deswita),Depok,WNI,Mei,,5,2024-05-01
 2024,Wisata Alam,Green Kayen (masuk deswita),Depok,WNA,Jun,0,6,2024-06-01
 2024,Wisata Alam,Green Kayen (masuk deswita),Depok,WNI,Jun,0,6,2024-06-01
 2024,Wisata Alam,Green Kayen (masuk deswita),Depok,WNA,Jul,0,7,2024-07-01
 2024,Wisata Alam,Green Kayen (masuk deswita),Depok,WNI,Jul,0,7,2024-07-01
 2024,Wisata Alam,Green Kayen (masuk deswita),Depok,WNA,Agu,0,8,2024-08-01
-2024,Wisata Alam,Green Kayen (masuk deswita),Depok,WNI,Agu,0,8,2024-08-01
+2024,Wisata Alam,Green Kayen (masuk deswita),Depok,WNI,Agu,,8,2024-08-01
 2024,Wisata Alam,Green Kayen (masuk deswita),Depok,WNA,Sep,0,9,2024-09-01
-2024,Wisata Alam,Green Kayen (masuk deswita),Depok,WNI,Sep,0,9,2024-09-01
+2024,Wisata Alam,Green Kayen (masuk deswita),Depok,WNI,Sep,,9,2024-09-01
 2024,Wisata Alam,Green Kayen (masuk deswita),Depok,WNA,Okt,0,10,2024-10-01
-2024,Wisata Alam,Green Kayen (masuk deswita),Depok,WNI,Okt,0,10,2024-10-01
+2024,Wisata Alam,Green Kayen (masuk deswita),Depok,WNI,Okt,,10,2024-10-01
 2024,Wisata Alam,Green Kayen (masuk deswita),Depok,WNA,Nov,0,11,2024-11-01
-2024,Wisata Alam,Green Kayen (masuk deswita),Depok,WNI,Nov,0,11,2024-11-01
+2024,Wisata Alam,Green Kayen (masuk deswita),Depok,WNI,Nov,,11,2024-11-01
 2024,Wisata Alam,Green Kayen (masuk deswita),Depok,WNA,Des,0,12,2024-12-01
-2024,Wisata Alam,Green Kayen (masuk deswita),Depok,WNI,Des,0,12,2024-12-01
+2024,Wisata Alam,Green Kayen (masuk deswita),Depok,WNI,Des,,12,2024-12-01
 2024,Wisata Alam,Kaliadem (bunker),Pakem,WNA,Jan,6,1,2024-01-01
 2024,Wisata Alam,Kaliadem (bunker),Pakem,WNI,Jan,23887,1,2024-01-01
 2024,Wisata Alam,Kaliadem (bunker),Pakem,WNA,Feb,24,2,2024-02-01
@@ -3743,126 +3743,6 @@ tahun,kategori,destinasi,kapanewon,asal,bulan,jumlah,bulan_num,tanggal
 2024,Wisata Alam,Watu Jagal,Tempel,WNI,Nov,0,11,2024-11-01
 2024,Wisata Alam,Watu Jagal,Tempel,WNA,Des,0,12,2024-12-01
 2024,Wisata Alam,Watu Jagal,Tempel,WNI,Des,0,12,2024-12-01
-2024,Wisata Buatan,- Festival Van Der Wijck 2024,Tempel,WNA,Jan,0,1,2024-01-01
-2024,Wisata Buatan,- Festival Van Der Wijck 2024,Tempel,WNI,Jan,0,1,2024-01-01
-2024,Wisata Buatan,- Festival Van Der Wijck 2024,Tempel,WNA,Feb,0,2,2024-02-01
-2024,Wisata Buatan,- Festival Van Der Wijck 2024,Tempel,WNI,Feb,0,2,2024-02-01
-2024,Wisata Buatan,- Festival Van Der Wijck 2024,Tempel,WNA,Mar,0,3,2024-03-01
-2024,Wisata Buatan,- Festival Van Der Wijck 2024,Tempel,WNI,Mar,0,3,2024-03-01
-2024,Wisata Buatan,- Festival Van Der Wijck 2024,Tempel,WNA,Apr,0,4,2024-04-01
-2024,Wisata Buatan,- Festival Van Der Wijck 2024,Tempel,WNI,Apr,0,4,2024-04-01
-2024,Wisata Buatan,- Festival Van Der Wijck 2024,Tempel,WNA,Mei,0,5,2024-05-01
-2024,Wisata Buatan,- Festival Van Der Wijck 2024,Tempel,WNI,Mei,0,5,2024-05-01
-2024,Wisata Buatan,- Festival Van Der Wijck 2024,Tempel,WNA,Jun,0,6,2024-06-01
-2024,Wisata Buatan,- Festival Van Der Wijck 2024,Tempel,WNI,Jun,0,6,2024-06-01
-2024,Wisata Buatan,- Festival Van Der Wijck 2024,Tempel,WNA,Jul,0,7,2024-07-01
-2024,Wisata Buatan,- Festival Van Der Wijck 2024,Tempel,WNI,Jul,0,7,2024-07-01
-2024,Wisata Buatan,- Festival Van Der Wijck 2024,Tempel,WNA,Agu,0,8,2024-08-01
-2024,Wisata Buatan,- Festival Van Der Wijck 2024,Tempel,WNI,Agu,0,8,2024-08-01
-2024,Wisata Buatan,- Festival Van Der Wijck 2024,Tempel,WNA,Sep,0,9,2024-09-01
-2024,Wisata Buatan,- Festival Van Der Wijck 2024,Tempel,WNI,Sep,0,9,2024-09-01
-2024,Wisata Buatan,- Festival Van Der Wijck 2024,Tempel,WNA,Okt,0,10,2024-10-01
-2024,Wisata Buatan,- Festival Van Der Wijck 2024,Tempel,WNI,Okt,0,10,2024-10-01
-2024,Wisata Buatan,- Festival Van Der Wijck 2024,Tempel,WNA,Nov,0,11,2024-11-01
-2024,Wisata Buatan,- Festival Van Der Wijck 2024,Tempel,WNI,Nov,0,11,2024-11-01
-2024,Wisata Buatan,- Festival Van Der Wijck 2024,Tempel,WNA,Des,0,12,2024-12-01
-2024,Wisata Buatan,- Festival Van Der Wijck 2024,Tempel,WNI,Des,0,12,2024-12-01
-2024,Wisata Buatan,- Launching Calendar Of Event 2024,Sleman,WNA,Jan,0,1,2024-01-01
-2024,Wisata Buatan,- Launching Calendar Of Event 2024,Sleman,WNI,Jan,0,1,2024-01-01
-2024,Wisata Buatan,- Launching Calendar Of Event 2024,Sleman,WNA,Feb,0,2,2024-02-01
-2024,Wisata Buatan,- Launching Calendar Of Event 2024,Sleman,WNI,Feb,0,2,2024-02-01
-2024,Wisata Buatan,- Launching Calendar Of Event 2024,Sleman,WNA,Mar,0,3,2024-03-01
-2024,Wisata Buatan,- Launching Calendar Of Event 2024,Sleman,WNI,Mar,0,3,2024-03-01
-2024,Wisata Buatan,- Launching Calendar Of Event 2024,Sleman,WNA,Apr,0,4,2024-04-01
-2024,Wisata Buatan,- Launching Calendar Of Event 2024,Sleman,WNI,Apr,0,4,2024-04-01
-2024,Wisata Buatan,- Launching Calendar Of Event 2024,Sleman,WNA,Mei,0,5,2024-05-01
-2024,Wisata Buatan,- Launching Calendar Of Event 2024,Sleman,WNI,Mei,0,5,2024-05-01
-2024,Wisata Buatan,- Launching Calendar Of Event 2024,Sleman,WNA,Jun,0,6,2024-06-01
-2024,Wisata Buatan,- Launching Calendar Of Event 2024,Sleman,WNI,Jun,0,6,2024-06-01
-2024,Wisata Buatan,- Launching Calendar Of Event 2024,Sleman,WNA,Jul,0,7,2024-07-01
-2024,Wisata Buatan,- Launching Calendar Of Event 2024,Sleman,WNI,Jul,0,7,2024-07-01
-2024,Wisata Buatan,- Launching Calendar Of Event 2024,Sleman,WNA,Agu,0,8,2024-08-01
-2024,Wisata Buatan,- Launching Calendar Of Event 2024,Sleman,WNI,Agu,0,8,2024-08-01
-2024,Wisata Buatan,- Launching Calendar Of Event 2024,Sleman,WNA,Sep,0,9,2024-09-01
-2024,Wisata Buatan,- Launching Calendar Of Event 2024,Sleman,WNI,Sep,0,9,2024-09-01
-2024,Wisata Buatan,- Launching Calendar Of Event 2024,Sleman,WNA,Okt,0,10,2024-10-01
-2024,Wisata Buatan,- Launching Calendar Of Event 2024,Sleman,WNI,Okt,0,10,2024-10-01
-2024,Wisata Buatan,- Launching Calendar Of Event 2024,Sleman,WNA,Nov,0,11,2024-11-01
-2024,Wisata Buatan,- Launching Calendar Of Event 2024,Sleman,WNI,Nov,0,11,2024-11-01
-2024,Wisata Buatan,- Launching Calendar Of Event 2024,Sleman,WNA,Des,0,12,2024-12-01
-2024,Wisata Buatan,- Launching Calendar Of Event 2024,Sleman,WNI,Des,0,12,2024-12-01
-2024,Wisata Buatan,Gor Klebengan,Depok,WNA,Jan,0,1,2024-01-01
-2024,Wisata Buatan,Gor Klebengan,Depok,WNI,Jan,0,1,2024-01-01
-2024,Wisata Buatan,Gor Klebengan,Depok,WNA,Feb,0,2,2024-02-01
-2024,Wisata Buatan,Gor Klebengan,Depok,WNI,Feb,0,2,2024-02-01
-2024,Wisata Buatan,Gor Klebengan,Depok,WNA,Mar,0,3,2024-03-01
-2024,Wisata Buatan,Gor Klebengan,Depok,WNI,Mar,0,3,2024-03-01
-2024,Wisata Buatan,Gor Klebengan,Depok,WNA,Apr,0,4,2024-04-01
-2024,Wisata Buatan,Gor Klebengan,Depok,WNI,Apr,0,4,2024-04-01
-2024,Wisata Buatan,Gor Klebengan,Depok,WNA,Mei,0,5,2024-05-01
-2024,Wisata Buatan,Gor Klebengan,Depok,WNI,Mei,0,5,2024-05-01
-2024,Wisata Buatan,Gor Klebengan,Depok,WNA,Jun,0,6,2024-06-01
-2024,Wisata Buatan,Gor Klebengan,Depok,WNI,Jun,0,6,2024-06-01
-2024,Wisata Buatan,Gor Klebengan,Depok,WNA,Jul,0,7,2024-07-01
-2024,Wisata Buatan,Gor Klebengan,Depok,WNI,Jul,0,7,2024-07-01
-2024,Wisata Buatan,Gor Klebengan,Depok,WNA,Agu,0,8,2024-08-01
-2024,Wisata Buatan,Gor Klebengan,Depok,WNI,Agu,0,8,2024-08-01
-2024,Wisata Buatan,Gor Klebengan,Depok,WNA,Sep,0,9,2024-09-01
-2024,Wisata Buatan,Gor Klebengan,Depok,WNI,Sep,0,9,2024-09-01
-2024,Wisata Buatan,Gor Klebengan,Depok,WNA,Okt,0,10,2024-10-01
-2024,Wisata Buatan,Gor Klebengan,Depok,WNI,Okt,0,10,2024-10-01
-2024,Wisata Buatan,Gor Klebengan,Depok,WNA,Nov,0,11,2024-11-01
-2024,Wisata Buatan,Gor Klebengan,Depok,WNI,Nov,0,11,2024-11-01
-2024,Wisata Buatan,Gor Klebengan,Depok,WNA,Des,0,12,2024-12-01
-2024,Wisata Buatan,Gor Klebengan,Depok,WNI,Des,0,12,2024-12-01
-2024,Wisata Buatan,Gor UNY,Depok,WNA,Jan,0,1,2024-01-01
-2024,Wisata Buatan,Gor UNY,Depok,WNI,Jan,3000,1,2024-01-01
-2024,Wisata Buatan,Gor UNY,Depok,WNA,Feb,0,2,2024-02-01
-2024,Wisata Buatan,Gor UNY,Depok,WNI,Feb,2000,2,2024-02-01
-2024,Wisata Buatan,Gor UNY,Depok,WNA,Mar,0,3,2024-03-01
-2024,Wisata Buatan,Gor UNY,Depok,WNI,Mar,3000,3,2024-03-01
-2024,Wisata Buatan,Gor UNY,Depok,WNA,Apr,0,4,2024-04-01
-2024,Wisata Buatan,Gor UNY,Depok,WNI,Apr,3000,4,2024-04-01
-2024,Wisata Buatan,Gor UNY,Depok,WNA,Mei,0,5,2024-05-01
-2024,Wisata Buatan,Gor UNY,Depok,WNI,Mei,0,5,2024-05-01
-2024,Wisata Buatan,Gor UNY,Depok,WNA,Jun,0,6,2024-06-01
-2024,Wisata Buatan,Gor UNY,Depok,WNI,Jun,0,6,2024-06-01
-2024,Wisata Buatan,Gor UNY,Depok,WNA,Jul,0,7,2024-07-01
-2024,Wisata Buatan,Gor UNY,Depok,WNI,Jul,0,7,2024-07-01
-2024,Wisata Buatan,Gor UNY,Depok,WNA,Agu,0,8,2024-08-01
-2024,Wisata Buatan,Gor UNY,Depok,WNI,Agu,0,8,2024-08-01
-2024,Wisata Buatan,Gor UNY,Depok,WNA,Sep,0,9,2024-09-01
-2024,Wisata Buatan,Gor UNY,Depok,WNI,Sep,0,9,2024-09-01
-2024,Wisata Buatan,Gor UNY,Depok,WNA,Okt,0,10,2024-10-01
-2024,Wisata Buatan,Gor UNY,Depok,WNI,Okt,0,10,2024-10-01
-2024,Wisata Buatan,Gor UNY,Depok,WNA,Nov,0,11,2024-11-01
-2024,Wisata Buatan,Gor UNY,Depok,WNI,Nov,0,11,2024-11-01
-2024,Wisata Buatan,Gor UNY,Depok,WNA,Des,0,12,2024-12-01
-2024,Wisata Buatan,Gor UNY,Depok,WNI,Des,0,12,2024-12-01
-2024,Wisata Buatan,Gor Waguwoharjo,Depok,WNA,Jan,0,1,2024-01-01
-2024,Wisata Buatan,Gor Waguwoharjo,Depok,WNI,Jan,0,1,2024-01-01
-2024,Wisata Buatan,Gor Waguwoharjo,Depok,WNA,Feb,0,2,2024-02-01
-2024,Wisata Buatan,Gor Waguwoharjo,Depok,WNI,Feb,0,2,2024-02-01
-2024,Wisata Buatan,Gor Waguwoharjo,Depok,WNA,Mar,0,3,2024-03-01
-2024,Wisata Buatan,Gor Waguwoharjo,Depok,WNI,Mar,0,3,2024-03-01
-2024,Wisata Buatan,Gor Waguwoharjo,Depok,WNA,Apr,0,4,2024-04-01
-2024,Wisata Buatan,Gor Waguwoharjo,Depok,WNI,Apr,0,4,2024-04-01
-2024,Wisata Buatan,Gor Waguwoharjo,Depok,WNA,Mei,0,5,2024-05-01
-2024,Wisata Buatan,Gor Waguwoharjo,Depok,WNI,Mei,0,5,2024-05-01
-2024,Wisata Buatan,Gor Waguwoharjo,Depok,WNA,Jun,0,6,2024-06-01
-2024,Wisata Buatan,Gor Waguwoharjo,Depok,WNI,Jun,0,6,2024-06-01
-2024,Wisata Buatan,Gor Waguwoharjo,Depok,WNA,Jul,0,7,2024-07-01
-2024,Wisata Buatan,Gor Waguwoharjo,Depok,WNI,Jul,0,7,2024-07-01
-2024,Wisata Buatan,Gor Waguwoharjo,Depok,WNA,Agu,0,8,2024-08-01
-2024,Wisata Buatan,Gor Waguwoharjo,Depok,WNI,Agu,0,8,2024-08-01
-2024,Wisata Buatan,Gor Waguwoharjo,Depok,WNA,Sep,0,9,2024-09-01
-2024,Wisata Buatan,Gor Waguwoharjo,Depok,WNI,Sep,0,9,2024-09-01
-2024,Wisata Buatan,Gor Waguwoharjo,Depok,WNA,Okt,0,10,2024-10-01
-2024,Wisata Buatan,Gor Waguwoharjo,Depok,WNI,Okt,0,10,2024-10-01
-2024,Wisata Buatan,Gor Waguwoharjo,Depok,WNA,Nov,0,11,2024-11-01
-2024,Wisata Buatan,Gor Waguwoharjo,Depok,WNI,Nov,0,11,2024-11-01
-2024,Wisata Buatan,Gor Waguwoharjo,Depok,WNA,Des,0,12,2024-12-01
-2024,Wisata Buatan,Gor Waguwoharjo,Depok,WNI,Des,0,12,2024-12-01
 2024,Wisata Buatan,Heha Forest,Pakem,WNA,Jan,0,1,2024-01-01
 2024,Wisata Buatan,Heha Forest,Pakem,WNI,Jan,13336,1,2024-01-01
 2024,Wisata Buatan,Heha Forest,Pakem,WNA,Feb,0,2,2024-02-01
@@ -3887,30 +3767,6 @@ tahun,kategori,destinasi,kapanewon,asal,bulan,jumlah,bulan_num,tanggal
 2024,Wisata Buatan,Heha Forest,Pakem,WNI,Nov,8715,11,2024-11-01
 2024,Wisata Buatan,Heha Forest,Pakem,WNA,Des,0,12,2024-12-01
 2024,Wisata Buatan,Heha Forest,Pakem,WNI,Des,12866,12,2024-12-01
-2024,Wisata Buatan,Hyatt Golf,Ngaglik,WNA,Jan,0,1,2024-01-01
-2024,Wisata Buatan,Hyatt Golf,Ngaglik,WNI,Jan,0,1,2024-01-01
-2024,Wisata Buatan,Hyatt Golf,Ngaglik,WNA,Feb,0,2,2024-02-01
-2024,Wisata Buatan,Hyatt Golf,Ngaglik,WNI,Feb,0,2,2024-02-01
-2024,Wisata Buatan,Hyatt Golf,Ngaglik,WNA,Mar,0,3,2024-03-01
-2024,Wisata Buatan,Hyatt Golf,Ngaglik,WNI,Mar,0,3,2024-03-01
-2024,Wisata Buatan,Hyatt Golf,Ngaglik,WNA,Apr,0,4,2024-04-01
-2024,Wisata Buatan,Hyatt Golf,Ngaglik,WNI,Apr,0,4,2024-04-01
-2024,Wisata Buatan,Hyatt Golf,Ngaglik,WNA,Mei,0,5,2024-05-01
-2024,Wisata Buatan,Hyatt Golf,Ngaglik,WNI,Mei,0,5,2024-05-01
-2024,Wisata Buatan,Hyatt Golf,Ngaglik,WNA,Jun,0,6,2024-06-01
-2024,Wisata Buatan,Hyatt Golf,Ngaglik,WNI,Jun,0,6,2024-06-01
-2024,Wisata Buatan,Hyatt Golf,Ngaglik,WNA,Jul,0,7,2024-07-01
-2024,Wisata Buatan,Hyatt Golf,Ngaglik,WNI,Jul,0,7,2024-07-01
-2024,Wisata Buatan,Hyatt Golf,Ngaglik,WNA,Agu,0,8,2024-08-01
-2024,Wisata Buatan,Hyatt Golf,Ngaglik,WNI,Agu,0,8,2024-08-01
-2024,Wisata Buatan,Hyatt Golf,Ngaglik,WNA,Sep,0,9,2024-09-01
-2024,Wisata Buatan,Hyatt Golf,Ngaglik,WNI,Sep,0,9,2024-09-01
-2024,Wisata Buatan,Hyatt Golf,Ngaglik,WNA,Okt,0,10,2024-10-01
-2024,Wisata Buatan,Hyatt Golf,Ngaglik,WNI,Okt,0,10,2024-10-01
-2024,Wisata Buatan,Hyatt Golf,Ngaglik,WNA,Nov,0,11,2024-11-01
-2024,Wisata Buatan,Hyatt Golf,Ngaglik,WNI,Nov,0,11,2024-11-01
-2024,Wisata Buatan,Hyatt Golf,Ngaglik,WNA,Des,0,12,2024-12-01
-2024,Wisata Buatan,Hyatt Golf,Ngaglik,WNI,Des,0,12,2024-12-01
 2024,Wisata Buatan,Kedai Kopi Merapi,Cangkringan,WNA,Jan,0,1,2024-01-01
 2024,Wisata Buatan,Kedai Kopi Merapi,Cangkringan,WNI,Jan,24542,1,2024-01-01
 2024,Wisata Buatan,Kedai Kopi Merapi,Cangkringan,WNA,Feb,0,2,2024-02-01
@@ -3934,31 +3790,7 @@ tahun,kategori,destinasi,kapanewon,asal,bulan,jumlah,bulan_num,tanggal
 2024,Wisata Buatan,Kedai Kopi Merapi,Cangkringan,WNA,Nov,0,11,2024-11-01
 2024,Wisata Buatan,Kedai Kopi Merapi,Cangkringan,WNI,Nov,23457,11,2024-11-01
 2024,Wisata Buatan,Kedai Kopi Merapi,Cangkringan,WNA,Des,0,12,2024-12-01
-2024,Wisata Buatan,Kedai Kopi Merapi,Cangkringan,WNI,Des,0,12,2024-12-01
-2024,Wisata Buatan,Merapi Golf,Cangkringan,WNA,Jan,0,1,2024-01-01
-2024,Wisata Buatan,Merapi Golf,Cangkringan,WNI,Jan,2582,1,2024-01-01
-2024,Wisata Buatan,Merapi Golf,Cangkringan,WNA,Feb,0,2,2024-02-01
-2024,Wisata Buatan,Merapi Golf,Cangkringan,WNI,Feb,2206,2,2024-02-01
-2024,Wisata Buatan,Merapi Golf,Cangkringan,WNA,Mar,0,3,2024-03-01
-2024,Wisata Buatan,Merapi Golf,Cangkringan,WNI,Mar,2004,3,2024-03-01
-2024,Wisata Buatan,Merapi Golf,Cangkringan,WNA,Apr,0,4,2024-04-01
-2024,Wisata Buatan,Merapi Golf,Cangkringan,WNI,Apr,1785,4,2024-04-01
-2024,Wisata Buatan,Merapi Golf,Cangkringan,WNA,Mei,0,5,2024-05-01
-2024,Wisata Buatan,Merapi Golf,Cangkringan,WNI,Mei,2864,5,2024-05-01
-2024,Wisata Buatan,Merapi Golf,Cangkringan,WNA,Jun,0,6,2024-06-01
-2024,Wisata Buatan,Merapi Golf,Cangkringan,WNI,Jun,2533,6,2024-06-01
-2024,Wisata Buatan,Merapi Golf,Cangkringan,WNA,Jul,0,7,2024-07-01
-2024,Wisata Buatan,Merapi Golf,Cangkringan,WNI,Jul,2770,7,2024-07-01
-2024,Wisata Buatan,Merapi Golf,Cangkringan,WNA,Agu,0,8,2024-08-01
-2024,Wisata Buatan,Merapi Golf,Cangkringan,WNI,Agu,2859,8,2024-08-01
-2024,Wisata Buatan,Merapi Golf,Cangkringan,WNA,Sep,0,9,2024-09-01
-2024,Wisata Buatan,Merapi Golf,Cangkringan,WNI,Sep,2932,9,2024-09-01
-2024,Wisata Buatan,Merapi Golf,Cangkringan,WNA,Okt,0,10,2024-10-01
-2024,Wisata Buatan,Merapi Golf,Cangkringan,WNI,Okt,3086,10,2024-10-01
-2024,Wisata Buatan,Merapi Golf,Cangkringan,WNA,Nov,0,11,2024-11-01
-2024,Wisata Buatan,Merapi Golf,Cangkringan,WNI,Nov,0,11,2024-11-01
-2024,Wisata Buatan,Merapi Golf,Cangkringan,WNA,Des,0,12,2024-12-01
-2024,Wisata Buatan,Merapi Golf,Cangkringan,WNI,Des,0,12,2024-12-01
+2024,Wisata Buatan,Kedai Kopi Merapi,Cangkringan,WNI,Des,,12,2024-12-01
 2024,Wisata Buatan,Obelix Hills,Prambanan,WNA,Jan,0,1,2024-01-01
 2024,Wisata Buatan,Obelix Hills,Prambanan,WNI,Jan,10933,1,2024-01-01
 2024,Wisata Buatan,Obelix Hills,Prambanan,WNA,Feb,0,2,2024-02-01
@@ -5591,29 +5423,29 @@ tahun,kategori,destinasi,kapanewon,asal,bulan,jumlah,bulan_num,tanggal
 2024,Wisata Budaya,Museum Anak Bajang/Omah Petruk,Pakem,WNI,Nov,0,11,2024-11-01
 2024,Wisata Budaya,Museum Anak Bajang/Omah Petruk,Pakem,WNA,Des,0,12,2024-12-01
 2024,Wisata Budaya,Museum Anak Bajang/Omah Petruk,Pakem,WNI,Des,0,12,2024-12-01
-2024,Wisata Budaya,Museum Dirgantara (masuk Bantul),Berbah,WNA,Jan,0,1,2024-01-01
+2024,Wisata Budaya,Museum Dirgantara (masuk Bantul),Berbah,WNA,Jan,,1,2024-01-01
 2024,Wisata Budaya,Museum Dirgantara (masuk Bantul),Berbah,WNI,Jan,0,1,2024-01-01
-2024,Wisata Budaya,Museum Dirgantara (masuk Bantul),Berbah,WNA,Feb,0,2,2024-02-01
+2024,Wisata Budaya,Museum Dirgantara (masuk Bantul),Berbah,WNA,Feb,,2,2024-02-01
 2024,Wisata Budaya,Museum Dirgantara (masuk Bantul),Berbah,WNI,Feb,0,2,2024-02-01
-2024,Wisata Budaya,Museum Dirgantara (masuk Bantul),Berbah,WNA,Mar,0,3,2024-03-01
+2024,Wisata Budaya,Museum Dirgantara (masuk Bantul),Berbah,WNA,Mar,,3,2024-03-01
 2024,Wisata Budaya,Museum Dirgantara (masuk Bantul),Berbah,WNI,Mar,0,3,2024-03-01
-2024,Wisata Budaya,Museum Dirgantara (masuk Bantul),Berbah,WNA,Apr,0,4,2024-04-01
+2024,Wisata Budaya,Museum Dirgantara (masuk Bantul),Berbah,WNA,Apr,,4,2024-04-01
 2024,Wisata Budaya,Museum Dirgantara (masuk Bantul),Berbah,WNI,Apr,0,4,2024-04-01
-2024,Wisata Budaya,Museum Dirgantara (masuk Bantul),Berbah,WNA,Mei,0,5,2024-05-01
+2024,Wisata Budaya,Museum Dirgantara (masuk Bantul),Berbah,WNA,Mei,,5,2024-05-01
 2024,Wisata Budaya,Museum Dirgantara (masuk Bantul),Berbah,WNI,Mei,0,5,2024-05-01
-2024,Wisata Budaya,Museum Dirgantara (masuk Bantul),Berbah,WNA,Jun,0,6,2024-06-01
+2024,Wisata Budaya,Museum Dirgantara (masuk Bantul),Berbah,WNA,Jun,,6,2024-06-01
 2024,Wisata Budaya,Museum Dirgantara (masuk Bantul),Berbah,WNI,Jun,0,6,2024-06-01
-2024,Wisata Budaya,Museum Dirgantara (masuk Bantul),Berbah,WNA,Jul,0,7,2024-07-01
+2024,Wisata Budaya,Museum Dirgantara (masuk Bantul),Berbah,WNA,Jul,,7,2024-07-01
 2024,Wisata Budaya,Museum Dirgantara (masuk Bantul),Berbah,WNI,Jul,0,7,2024-07-01
-2024,Wisata Budaya,Museum Dirgantara (masuk Bantul),Berbah,WNA,Agu,0,8,2024-08-01
+2024,Wisata Budaya,Museum Dirgantara (masuk Bantul),Berbah,WNA,Agu,,8,2024-08-01
 2024,Wisata Budaya,Museum Dirgantara (masuk Bantul),Berbah,WNI,Agu,0,8,2024-08-01
-2024,Wisata Budaya,Museum Dirgantara (masuk Bantul),Berbah,WNA,Sep,0,9,2024-09-01
+2024,Wisata Budaya,Museum Dirgantara (masuk Bantul),Berbah,WNA,Sep,,9,2024-09-01
 2024,Wisata Budaya,Museum Dirgantara (masuk Bantul),Berbah,WNI,Sep,0,9,2024-09-01
-2024,Wisata Budaya,Museum Dirgantara (masuk Bantul),Berbah,WNA,Okt,0,10,2024-10-01
+2024,Wisata Budaya,Museum Dirgantara (masuk Bantul),Berbah,WNA,Okt,,10,2024-10-01
 2024,Wisata Budaya,Museum Dirgantara (masuk Bantul),Berbah,WNI,Okt,0,10,2024-10-01
-2024,Wisata Budaya,Museum Dirgantara (masuk Bantul),Berbah,WNA,Nov,0,11,2024-11-01
+2024,Wisata Budaya,Museum Dirgantara (masuk Bantul),Berbah,WNA,Nov,,11,2024-11-01
 2024,Wisata Budaya,Museum Dirgantara (masuk Bantul),Berbah,WNI,Nov,0,11,2024-11-01
-2024,Wisata Budaya,Museum Dirgantara (masuk Bantul),Berbah,WNA,Des,0,12,2024-12-01
+2024,Wisata Budaya,Museum Dirgantara (masuk Bantul),Berbah,WNA,Des,,12,2024-12-01
 2024,Wisata Budaya,Museum Dirgantara (masuk Bantul),Berbah,WNI,Des,0,12,2024-12-01
 2024,Wisata Budaya,Museum Gempa Prof. Dr. Sarwidi,Pakem,WNA,Jan,67,1,2024-01-01
 2024,Wisata Budaya,Museum Gempa Prof. Dr. Sarwidi,Pakem,WNI,Jan,196,1,2024-01-01
@@ -5687,29 +5519,29 @@ tahun,kategori,destinasi,kapanewon,asal,bulan,jumlah,bulan_num,tanggal
 2024,Wisata Budaya,Museum Gunungapi Merapi (dibuka kembali per 27 des 24)),Pakem,WNI,Nov,0,11,2024-11-01
 2024,Wisata Budaya,Museum Gunungapi Merapi (dibuka kembali per 27 des 24)),Pakem,WNA,Des,6,12,2024-12-01
 2024,Wisata Budaya,Museum Gunungapi Merapi (dibuka kembali per 27 des 24)),Pakem,WNI,Des,1507,12,2024-12-01
-2024,Wisata Budaya,Museum Karbol,Berbah,WNA,Jan,0,1,2024-01-01
+2024,Wisata Budaya,Museum Karbol,Berbah,WNA,Jan,,1,2024-01-01
 2024,Wisata Budaya,Museum Karbol,Berbah,WNI,Jan,0,1,2024-01-01
-2024,Wisata Budaya,Museum Karbol,Berbah,WNA,Feb,0,2,2024-02-01
+2024,Wisata Budaya,Museum Karbol,Berbah,WNA,Feb,,2,2024-02-01
 2024,Wisata Budaya,Museum Karbol,Berbah,WNI,Feb,0,2,2024-02-01
-2024,Wisata Budaya,Museum Karbol,Berbah,WNA,Mar,0,3,2024-03-01
+2024,Wisata Budaya,Museum Karbol,Berbah,WNA,Mar,,3,2024-03-01
 2024,Wisata Budaya,Museum Karbol,Berbah,WNI,Mar,0,3,2024-03-01
-2024,Wisata Budaya,Museum Karbol,Berbah,WNA,Apr,0,4,2024-04-01
+2024,Wisata Budaya,Museum Karbol,Berbah,WNA,Apr,,4,2024-04-01
 2024,Wisata Budaya,Museum Karbol,Berbah,WNI,Apr,0,4,2024-04-01
-2024,Wisata Budaya,Museum Karbol,Berbah,WNA,Mei,0,5,2024-05-01
+2024,Wisata Budaya,Museum Karbol,Berbah,WNA,Mei,,5,2024-05-01
 2024,Wisata Budaya,Museum Karbol,Berbah,WNI,Mei,0,5,2024-05-01
-2024,Wisata Budaya,Museum Karbol,Berbah,WNA,Jun,0,6,2024-06-01
+2024,Wisata Budaya,Museum Karbol,Berbah,WNA,Jun,,6,2024-06-01
 2024,Wisata Budaya,Museum Karbol,Berbah,WNI,Jun,0,6,2024-06-01
-2024,Wisata Budaya,Museum Karbol,Berbah,WNA,Jul,0,7,2024-07-01
+2024,Wisata Budaya,Museum Karbol,Berbah,WNA,Jul,,7,2024-07-01
 2024,Wisata Budaya,Museum Karbol,Berbah,WNI,Jul,0,7,2024-07-01
-2024,Wisata Budaya,Museum Karbol,Berbah,WNA,Agu,0,8,2024-08-01
+2024,Wisata Budaya,Museum Karbol,Berbah,WNA,Agu,,8,2024-08-01
 2024,Wisata Budaya,Museum Karbol,Berbah,WNI,Agu,0,8,2024-08-01
-2024,Wisata Budaya,Museum Karbol,Berbah,WNA,Sep,0,9,2024-09-01
+2024,Wisata Budaya,Museum Karbol,Berbah,WNA,Sep,,9,2024-09-01
 2024,Wisata Budaya,Museum Karbol,Berbah,WNI,Sep,0,9,2024-09-01
-2024,Wisata Budaya,Museum Karbol,Berbah,WNA,Okt,0,10,2024-10-01
+2024,Wisata Budaya,Museum Karbol,Berbah,WNA,Okt,,10,2024-10-01
 2024,Wisata Budaya,Museum Karbol,Berbah,WNI,Okt,0,10,2024-10-01
-2024,Wisata Budaya,Museum Karbol,Berbah,WNA,Nov,0,11,2024-11-01
+2024,Wisata Budaya,Museum Karbol,Berbah,WNA,Nov,,11,2024-11-01
 2024,Wisata Budaya,Museum Karbol,Berbah,WNI,Nov,0,11,2024-11-01
-2024,Wisata Budaya,Museum Karbol,Berbah,WNA,Des,0,12,2024-12-01
+2024,Wisata Budaya,Museum Karbol,Berbah,WNA,Des,,12,2024-12-01
 2024,Wisata Budaya,Museum Karbol,Berbah,WNI,Des,0,12,2024-12-01
 2024,Wisata Budaya,Museum MKPWI,Depok,WNA,Jan,0,1,2024-01-01
 2024,Wisata Budaya,Museum MKPWI,Depok,WNI,Jan,106,1,2024-01-01
@@ -5759,29 +5591,29 @@ tahun,kategori,destinasi,kapanewon,asal,bulan,jumlah,bulan_num,tanggal
 2024,Wisata Budaya,Museum Mini Sisa Hartaku,Cangkringan,WNI,Nov,12898,11,2024-11-01
 2024,Wisata Budaya,Museum Mini Sisa Hartaku,Cangkringan,WNA,Des,0,12,2024-12-01
 2024,Wisata Budaya,Museum Mini Sisa Hartaku,Cangkringan,WNI,Des,18988,12,2024-12-01
-2024,Wisata Budaya,Museum Paleoantropologi,Mlati,WNA,Jan,0,1,2024-01-01
+2024,Wisata Budaya,Museum Paleoantropologi,Mlati,WNA,Jan,,1,2024-01-01
 2024,Wisata Budaya,Museum Paleoantropologi,Mlati,WNI,Jan,0,1,2024-01-01
-2024,Wisata Budaya,Museum Paleoantropologi,Mlati,WNA,Feb,0,2,2024-02-01
+2024,Wisata Budaya,Museum Paleoantropologi,Mlati,WNA,Feb,,2,2024-02-01
 2024,Wisata Budaya,Museum Paleoantropologi,Mlati,WNI,Feb,0,2,2024-02-01
-2024,Wisata Budaya,Museum Paleoantropologi,Mlati,WNA,Mar,0,3,2024-03-01
+2024,Wisata Budaya,Museum Paleoantropologi,Mlati,WNA,Mar,,3,2024-03-01
 2024,Wisata Budaya,Museum Paleoantropologi,Mlati,WNI,Mar,0,3,2024-03-01
-2024,Wisata Budaya,Museum Paleoantropologi,Mlati,WNA,Apr,0,4,2024-04-01
+2024,Wisata Budaya,Museum Paleoantropologi,Mlati,WNA,Apr,,4,2024-04-01
 2024,Wisata Budaya,Museum Paleoantropologi,Mlati,WNI,Apr,0,4,2024-04-01
-2024,Wisata Budaya,Museum Paleoantropologi,Mlati,WNA,Mei,0,5,2024-05-01
+2024,Wisata Budaya,Museum Paleoantropologi,Mlati,WNA,Mei,,5,2024-05-01
 2024,Wisata Budaya,Museum Paleoantropologi,Mlati,WNI,Mei,0,5,2024-05-01
-2024,Wisata Budaya,Museum Paleoantropologi,Mlati,WNA,Jun,0,6,2024-06-01
+2024,Wisata Budaya,Museum Paleoantropologi,Mlati,WNA,Jun,,6,2024-06-01
 2024,Wisata Budaya,Museum Paleoantropologi,Mlati,WNI,Jun,0,6,2024-06-01
-2024,Wisata Budaya,Museum Paleoantropologi,Mlati,WNA,Jul,0,7,2024-07-01
+2024,Wisata Budaya,Museum Paleoantropologi,Mlati,WNA,Jul,,7,2024-07-01
 2024,Wisata Budaya,Museum Paleoantropologi,Mlati,WNI,Jul,0,7,2024-07-01
-2024,Wisata Budaya,Museum Paleoantropologi,Mlati,WNA,Agu,0,8,2024-08-01
+2024,Wisata Budaya,Museum Paleoantropologi,Mlati,WNA,Agu,,8,2024-08-01
 2024,Wisata Budaya,Museum Paleoantropologi,Mlati,WNI,Agu,0,8,2024-08-01
-2024,Wisata Budaya,Museum Paleoantropologi,Mlati,WNA,Sep,0,9,2024-09-01
+2024,Wisata Budaya,Museum Paleoantropologi,Mlati,WNA,Sep,,9,2024-09-01
 2024,Wisata Budaya,Museum Paleoantropologi,Mlati,WNI,Sep,0,9,2024-09-01
-2024,Wisata Budaya,Museum Paleoantropologi,Mlati,WNA,Okt,0,10,2024-10-01
+2024,Wisata Budaya,Museum Paleoantropologi,Mlati,WNA,Okt,,10,2024-10-01
 2024,Wisata Budaya,Museum Paleoantropologi,Mlati,WNI,Okt,0,10,2024-10-01
-2024,Wisata Budaya,Museum Paleoantropologi,Mlati,WNA,Nov,0,11,2024-11-01
+2024,Wisata Budaya,Museum Paleoantropologi,Mlati,WNA,Nov,,11,2024-11-01
 2024,Wisata Budaya,Museum Paleoantropologi,Mlati,WNI,Nov,0,11,2024-11-01
-2024,Wisata Budaya,Museum Paleoantropologi,Mlati,WNA,Des,0,12,2024-12-01
+2024,Wisata Budaya,Museum Paleoantropologi,Mlati,WNA,Des,,12,2024-12-01
 2024,Wisata Budaya,Museum Paleoantropologi,Mlati,WNI,Des,0,12,2024-12-01
 2024,Wisata Budaya,Museum Pancasila,Depok,WNA,Jan,0,1,2024-01-01
 2024,Wisata Budaya,Museum Pancasila,Depok,WNI,Jan,8,1,2024-01-01
@@ -5793,7 +5625,7 @@ tahun,kategori,destinasi,kapanewon,asal,bulan,jumlah,bulan_num,tanggal
 2024,Wisata Budaya,Museum Pancasila,Depok,WNI,Apr,47,4,2024-04-01
 2024,Wisata Budaya,Museum Pancasila,Depok,WNA,Mei,0,5,2024-05-01
 2024,Wisata Budaya,Museum Pancasila,Depok,WNI,Mei,11,5,2024-05-01
-2024,Wisata Budaya,Museum Pancasila,Depok,WNA,Jun,0,6,2024-06-01
+2024,Wisata Budaya,Museum Pancasila,Depok,WNA,Jun,,6,2024-06-01
 2024,Wisata Budaya,Museum Pancasila,Depok,WNI,Jun,132,6,2024-06-01
 2024,Wisata Budaya,Museum Pancasila,Depok,WNA,Jul,0,7,2024-07-01
 2024,Wisata Budaya,Museum Pancasila,Depok,WNI,Jul,599,7,2024-07-01
@@ -5855,29 +5687,29 @@ tahun,kategori,destinasi,kapanewon,asal,bulan,jumlah,bulan_num,tanggal
 2024,Wisata Budaya,Museum Plataran,Kalasan,WNI,Nov,700,11,2024-11-01
 2024,Wisata Budaya,Museum Plataran,Kalasan,WNA,Des,0,12,2024-12-01
 2024,Wisata Budaya,Museum Plataran,Kalasan,WNI,Des,700,12,2024-12-01
-2024,Wisata Budaya,Museum Purbakala Taman Wisata Prambanan,Prambanan,WNA,Jan,0,1,2024-01-01
+2024,Wisata Budaya,Museum Purbakala Taman Wisata Prambanan,Prambanan,WNA,Jan,,1,2024-01-01
 2024,Wisata Budaya,Museum Purbakala Taman Wisata Prambanan,Prambanan,WNI,Jan,0,1,2024-01-01
-2024,Wisata Budaya,Museum Purbakala Taman Wisata Prambanan,Prambanan,WNA,Feb,0,2,2024-02-01
+2024,Wisata Budaya,Museum Purbakala Taman Wisata Prambanan,Prambanan,WNA,Feb,,2,2024-02-01
 2024,Wisata Budaya,Museum Purbakala Taman Wisata Prambanan,Prambanan,WNI,Feb,0,2,2024-02-01
-2024,Wisata Budaya,Museum Purbakala Taman Wisata Prambanan,Prambanan,WNA,Mar,0,3,2024-03-01
+2024,Wisata Budaya,Museum Purbakala Taman Wisata Prambanan,Prambanan,WNA,Mar,,3,2024-03-01
 2024,Wisata Budaya,Museum Purbakala Taman Wisata Prambanan,Prambanan,WNI,Mar,0,3,2024-03-01
-2024,Wisata Budaya,Museum Purbakala Taman Wisata Prambanan,Prambanan,WNA,Apr,0,4,2024-04-01
+2024,Wisata Budaya,Museum Purbakala Taman Wisata Prambanan,Prambanan,WNA,Apr,,4,2024-04-01
 2024,Wisata Budaya,Museum Purbakala Taman Wisata Prambanan,Prambanan,WNI,Apr,0,4,2024-04-01
-2024,Wisata Budaya,Museum Purbakala Taman Wisata Prambanan,Prambanan,WNA,Mei,0,5,2024-05-01
+2024,Wisata Budaya,Museum Purbakala Taman Wisata Prambanan,Prambanan,WNA,Mei,,5,2024-05-01
 2024,Wisata Budaya,Museum Purbakala Taman Wisata Prambanan,Prambanan,WNI,Mei,0,5,2024-05-01
-2024,Wisata Budaya,Museum Purbakala Taman Wisata Prambanan,Prambanan,WNA,Jun,0,6,2024-06-01
+2024,Wisata Budaya,Museum Purbakala Taman Wisata Prambanan,Prambanan,WNA,Jun,,6,2024-06-01
 2024,Wisata Budaya,Museum Purbakala Taman Wisata Prambanan,Prambanan,WNI,Jun,0,6,2024-06-01
-2024,Wisata Budaya,Museum Purbakala Taman Wisata Prambanan,Prambanan,WNA,Jul,0,7,2024-07-01
+2024,Wisata Budaya,Museum Purbakala Taman Wisata Prambanan,Prambanan,WNA,Jul,,7,2024-07-01
 2024,Wisata Budaya,Museum Purbakala Taman Wisata Prambanan,Prambanan,WNI,Jul,0,7,2024-07-01
-2024,Wisata Budaya,Museum Purbakala Taman Wisata Prambanan,Prambanan,WNA,Agu,0,8,2024-08-01
+2024,Wisata Budaya,Museum Purbakala Taman Wisata Prambanan,Prambanan,WNA,Agu,,8,2024-08-01
 2024,Wisata Budaya,Museum Purbakala Taman Wisata Prambanan,Prambanan,WNI,Agu,0,8,2024-08-01
-2024,Wisata Budaya,Museum Purbakala Taman Wisata Prambanan,Prambanan,WNA,Sep,0,9,2024-09-01
+2024,Wisata Budaya,Museum Purbakala Taman Wisata Prambanan,Prambanan,WNA,Sep,,9,2024-09-01
 2024,Wisata Budaya,Museum Purbakala Taman Wisata Prambanan,Prambanan,WNI,Sep,0,9,2024-09-01
-2024,Wisata Budaya,Museum Purbakala Taman Wisata Prambanan,Prambanan,WNA,Okt,0,10,2024-10-01
+2024,Wisata Budaya,Museum Purbakala Taman Wisata Prambanan,Prambanan,WNA,Okt,,10,2024-10-01
 2024,Wisata Budaya,Museum Purbakala Taman Wisata Prambanan,Prambanan,WNI,Okt,0,10,2024-10-01
-2024,Wisata Budaya,Museum Purbakala Taman Wisata Prambanan,Prambanan,WNA,Nov,0,11,2024-11-01
+2024,Wisata Budaya,Museum Purbakala Taman Wisata Prambanan,Prambanan,WNA,Nov,,11,2024-11-01
 2024,Wisata Budaya,Museum Purbakala Taman Wisata Prambanan,Prambanan,WNI,Nov,0,11,2024-11-01
-2024,Wisata Budaya,Museum Purbakala Taman Wisata Prambanan,Prambanan,WNA,Des,0,12,2024-12-01
+2024,Wisata Budaya,Museum Purbakala Taman Wisata Prambanan,Prambanan,WNA,Des,,12,2024-12-01
 2024,Wisata Budaya,Museum Purbakala Taman Wisata Prambanan,Prambanan,WNI,Des,0,12,2024-12-01
 2024,Wisata Budaya,Museum Serat Holistik,Ngaglik,WNA,Jan,0,1,2024-01-01
 2024,Wisata Budaya,Museum Serat Holistik,Ngaglik,WNI,Jan,10,1,2024-01-01
@@ -6938,7 +6770,7 @@ tahun,kategori,destinasi,kapanewon,asal,bulan,jumlah,bulan_num,tanggal
 2024,Wisata Budaya,Wisata Bukit Mintorogo,Prambanan,WNA,Jan,0,1,2024-01-01
 2024,Wisata Budaya,Wisata Bukit Mintorogo,Prambanan,WNI,Jan,200,1,2024-01-01
 2024,Wisata Budaya,Wisata Bukit Mintorogo,Prambanan,WNA,Feb,0,2,2024-02-01
-2024,Wisata Budaya,Wisata Bukit Mintorogo,Prambanan,WNI,Feb,0,2,2024-02-01
+2024,Wisata Budaya,Wisata Bukit Mintorogo,Prambanan,WNI,Feb,,2,2024-02-01
 2024,Wisata Budaya,Wisata Bukit Mintorogo,Prambanan,WNA,Mar,0,3,2024-03-01
 2024,Wisata Budaya,Wisata Bukit Mintorogo,Prambanan,WNI,Mar,255,3,2024-03-01
 2024,Wisata Budaya,Wisata Bukit Mintorogo,Prambanan,WNA,Apr,0,4,2024-04-01
